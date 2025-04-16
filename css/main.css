@@ -1,0 +1,45 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v15-latin-600.woff2') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.containers {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
+}
+
+.hero-wrapper {
+    background-image: url(../images/bacround.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+
+@media(max-width:390px) {
+    .hero-wrapper {
+        background-image: url(../images/mobaill-bacround.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 812px;
+    }
+}
